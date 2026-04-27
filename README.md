@@ -11,6 +11,8 @@ The datasets used include:
 
 iris.csv
 bcancer.csv
+
+
 ⚙️ What This Project Does
 
 Each notebook follows a structured machine learning pipeline:
@@ -21,6 +23,9 @@ Model training and evaluation
 Hyperparameter tuning using grid search
 Cross-validation for performance estimation
 Visualization (pairplots, confusion matrices, ROC curves, and comparison plots)
+
+
+
 🤖 Models Implemented
 
 The following supervised learning models were applied:
@@ -36,6 +41,9 @@ Precision
 Recall
 F1-score
 AUC (Area Under the ROC Curve)
+
+
+
 📊 Key Features
 5-fold stratified cross-validation for reliable performance estimates
 Train vs test comparison to detect overfitting
