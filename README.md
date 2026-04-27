@@ -1,17 +1,46 @@
-Summary
+Project Summary
 
-This project focuses on building and evaluating multiple machine learning models using the scikit-learn library on the Iris dataset. The goal is to demonstrate a complete machine learning workflow, from data preprocessing to model comparison and interpretation.
+This project demonstrates a complete machine learning workflow using the scikit-learn library on two datasets: the Iris dataset and the Breast Cancer dataset.
 
-The analysis begins with data exploration and visualization, including pairplots to understand feature relationships and class separation. The dataset is then split into training, validation, and test sets, followed by feature scaling to ensure consistent model performance.
+The analysis is organized into the following Jupyter Notebooks:
 
-Three supervised learning models were implemented:
+iris(2).ipynb → Machine learning analysis on the Iris dataset
+breast-cancer-wisconsin-diagnosis(4).ipynb → Machine learning analysis on the Breast Cancer dataset
+
+The datasets used include:
+
+iris.csv
+bcancer.csv
+⚙️ What This Project Does
+
+Each notebook follows a structured machine learning pipeline:
+
+Data loading and exploration
+Data preprocessing (encoding, scaling, splitting)
+Model training and evaluation
+Hyperparameter tuning using grid search
+Cross-validation for performance estimation
+Visualization (pairplots, confusion matrices, ROC curves, and comparison plots)
+🤖 Models Implemented
+
+The following supervised learning models were applied:
 
 Logistic Regression (using stochastic gradient descent)
 K-Nearest Neighbors (KNN)
 Multilayer Perceptron (MLP)
 
-Each model was optimized using grid search with cross-validation to identify the best hyperparameters. Model performance was evaluated using multiple metrics, including accuracy, precision, recall, F1-score, and AUC.
+Each model was optimized using cross-validation and evaluated using:
 
-To ensure robustness, 5-fold stratified cross-validation was used, and results were visualized using boxplots, confusion matrices, and ROC curves. A final comparison between training and test performance was conducted to assess generalization and detect overfitting.
+Accuracy
+Precision
+Recall
+F1-score
+AUC (Area Under the ROC Curve)
+📊 Key Features
+5-fold stratified cross-validation for reliable performance estimates
+Train vs test comparison to detect overfitting
+Visualizations for model comparison and interpretation
+Clean, reusable helper functions for evaluation
+🎯 Goal
 
-Overall, this project highlights the importance of model selection, hyperparameter tuning, and proper evaluation techniques in building reliable machine learning models.
+The goal of this project is to compare different machine learning models and understand their performance, stability, and ability to generalize to unseen data. It highlights the importance of preprocessing, hyperparameter tuning, and proper evaluation in building effective predictive models.
