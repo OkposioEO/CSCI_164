@@ -49,6 +49,9 @@ AUC (Area Under the ROC Curve)
 Train vs test comparison to detect overfitting
 Visualizations for model comparison and interpretation
 Clean, reusable helper functions for evaluation
+
+
+
 🎯 Goal
 
 The goal of this project is to compare different machine learning models and understand their performance, stability, and ability to generalize to unseen data. It highlights the importance of preprocessing, hyperparameter tuning, and proper evaluation in building effective predictive models.
